@@ -18,7 +18,6 @@ In this paper we will discuss a special type of graph – the bipartite graph. W
 
 ##### Download
 
-+ [Bipartite Graphs](biparite_f20.pdf)
 + [Fall 2020 Presentations](https://web.ma.utexas.edu/users/drp/onlineprojects_fall2020.html)
 ---
 

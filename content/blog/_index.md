@@ -1,4 +1,5 @@
 ---
 title: "Blog"
-description: "Personal and Academic Blog."
+description: "Notes and essays."
+draft: true
 ---

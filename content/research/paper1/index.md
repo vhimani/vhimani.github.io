@@ -1,5 +1,5 @@
 ---
-title: "Time Using During the Pandemic: Differences from the Great Recession and Gender Gaps" 
+title: "Time Use During the Pandemic: Differences from the Great Recession and Gender Gaps"
 date: 2022-05-01
 tags: ["labor economics","research","undergrad"]
 author: "Himani Verma"
@@ -25,7 +25,6 @@ market work. Leisure absorbs hours from other categories like job search and chi
 
 + [Paper](paper1.pdf)
 + [Code and data](https://github.com/vhimani/Undergrad_Thesis)
-+ [Presentation slides](presentation1.pptx)
 
 ---
 

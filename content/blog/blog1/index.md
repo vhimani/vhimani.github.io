@@ -5,6 +5,7 @@ tags: ["admissions","economics"]
 author: "Himani Verma"
 description: "This graduate course presents an overview of applying to US PhD programs in Economics." 
 summary: "This graduate course draws from my experience and presents an overview of applying to US PhD programs in Economics." 
+draft: true
 showToc: true
 disableAnchoredHeadings: false
 
@@ -45,11 +46,3 @@ Some schools scheduled interviews to discuss fit, which revolved around question
 #### Offers
 
 ## Conclusion
-
-This section concludes by comparing Portuguese and Spanish irregular verbs to irregular verbs in other Romance languages. 
-
-> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst. Quisque non felis. Nullam vulputate libero quis ligula. Fusce scelerisque suscipit sapien. Suspendisse commodo ullamcorper magna. 
-> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-

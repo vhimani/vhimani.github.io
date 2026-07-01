@@ -21,9 +21,6 @@ menu:
         - name: Research
           url: research/
           weight: 3
-        - name: Blog
-          url: blog/
-          weight: 4
 
 params:
     description: "This website hosts Himani Verma's research papers, curriculum vitae, and contact information."
@@ -41,7 +38,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["about","research","blog"]
+    MainSections: ["about","research"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -61,13 +58,8 @@ params:
               url: about/
             - name: Research
               url: research/
-            - name: Blog
-              url: blog/
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
-          title: "CV"
         - name: Email
           url: mailto:himani.verma@uci.edu
           title: "Email"
