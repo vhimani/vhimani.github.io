@@ -1,4 +1,5 @@
 {{- define "main" }}
+{{- $hidePrivateContent := and (.Param "private") (not hugo.IsServer) }}
 
 <article class="post-single">
   <header class="post-header">
@@ -33,11 +34,11 @@
   </header>
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
-  {{- if and (.Param "ShowToc") (not (.Param "private")) }}
+  {{- if and (.Param "ShowToc") (not $hidePrivateContent) }}
   {{- partial "toc.html" . }}
   {{- end }}
 
-  {{- if (.Param "private") }}
+  {{- if $hidePrivateContent }}
   <div class="post-content">
     <p>This post is private.</p>
   </div>
@@ -49,7 +50,7 @@
   </div>
   {{- end }}
 
-  {{- if not (.Param "private") }}
+  {{- if not $hidePrivateContent }}
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
     <ul class="post-tags">

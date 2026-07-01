@@ -79,7 +79,7 @@
     {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
     {{- end }}
   ],
-  {{- if (.Param "private") }}
+  {{- if and (.Param "private") (not hugo.IsServer) }}
   "articleBody": "This post is private.",
   "wordCount" : "4",
   {{- else }}
