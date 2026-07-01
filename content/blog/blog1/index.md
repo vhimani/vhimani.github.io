@@ -5,6 +5,7 @@ tags: ["admissions","economics"]
 author: "Himani Verma"
 description: "Notes from my experience applying to US PhD programs in Economics."
 summary: "Notes from my experience applying to US PhD programs in Economics."
+private: true
 showToc: true
 disableAnchoredHeadings: false
 
