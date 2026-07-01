@@ -3,3 +3,6 @@ public/
 resources/
 .hugo_build.lock
 .DS_Store
+
+# Local-only blog drafts
+content/blog/blog1/
