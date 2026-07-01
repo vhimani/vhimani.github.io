@@ -15,7 +15,12 @@
     {{- if site.Params.schema.sameAs }}
       {{ range $i, $e := site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
     {{- else}}
-      {{ range $i, $e := site.Params.SocialIcons }}{{ if $i }}, {{ end }}{{ trim $e.url " " | safeURL }}{{ end }}
+      {{- $sameAs := slice }}
+      {{- range site.Params.SocialIcons }}
+        {{- $url := trim .url " " }}
+        {{- if $url }}{{ $sameAs = $sameAs | append ($url | safeURL) }}{{ end }}
+      {{- end }}
+      {{ range $i, $e := $sameAs }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
     {{- end}}
   ]
 }

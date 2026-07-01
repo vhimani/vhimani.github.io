@@ -71,6 +71,9 @@ params:
               url: tags/
 
     socialIcons:
+        - name: CV
+          url: ""
+          title: "CV coming soon"
         - name: Email
           url: mailto:himani.verma@uci.edu
           title: "Email"

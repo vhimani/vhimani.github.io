@@ -27,14 +27,21 @@
     margin-inline-start: auto;
 }
 
-.social-icons a {
+.social-icons a,
+.social-icons .social-icon-placeholder {
     display: inline-flex;
     padding: 10px 14px 10px 0px;
 }
 
-.social-icons a svg {
+.social-icons a svg,
+.social-icons .social-icon-placeholder svg {
     height: 30px;
     width: 30px;
+}
+
+.social-icons .social-icon-placeholder {
+    color: var(--secondary);
+    cursor: default;
 }
 
 .social-icons a:hover {
