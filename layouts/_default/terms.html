@@ -1,7 +1,14 @@
 {{- define "main" }}
 
 <header class="page-header">
+    <h1>{{ .Title }}</h1>
 </header>
+
+{{- if .Content }}
+<div class="post-content">
+    {{ .Content }}
+</div>
+{{- end }}
 
 <ul class="terms-tags">
     {{- $type := .Type }}

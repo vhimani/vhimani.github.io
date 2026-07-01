@@ -21,8 +21,15 @@ menu:
         - name: Research
           url: research/
           weight: 3
+        - name: Blog
+          url: blog/
+          weight: 4
+        - name: Tags
+          url: tags/
+          weight: 5
 
 params:
+    underConstruction: "This site is under construction."
     description: "This website hosts Himani Verma's research papers, curriculum vitae, and contact information."
     author: Himani Verma
     # googleAnalyticsID: "G-XXXXX"
@@ -50,7 +57,7 @@ params:
           enabled: true
           title: Himani Verma
           subtitle: "I am a Senior Research Analyst at The Brattle Group, an economic consulting firm, in San Francisco. I graduated from The University of Texas at Austin with a BA in Economics Honors and BS in Mathematics, with additional minors in Computer Science and Applied Statistical Modeling."
-          imageUrl: "picture.jpeg"
+          imageUrl: "headshot-himani-square.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
@@ -58,6 +65,10 @@ params:
               url: about/
             - name: Research
               url: research/
+            - name: Blog
+              url: blog/
+            - name: Tags
+              url: tags/
 
     socialIcons:
         - name: Email

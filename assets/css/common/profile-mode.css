@@ -22,6 +22,11 @@
     font-size: 2.5rem;
 }
 
+.profile-status {
+    color: var(--secondary);
+    font-size: var(--entrysize);
+}
+
 .profile img {
     border-radius: 50%;
     border: 1px solid var(--tertiary);

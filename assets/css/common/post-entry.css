@@ -36,14 +36,33 @@
 .post-entry {
     position: relative;
     margin-bottom: var(--gap);
-    padding: 18px 0;
+    padding: var(--gap);
     background: var(--entry);
-    border-radius: 0;
-    border-bottom: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: transform 0.1s;
+    border: 2px solid var(--border);
 }
 
 .post-entry:hover {
-    border-bottom-color: var(--tertiary);
+     border: 2px solid var(--darkcolor);
+}
+
+.section-research.list .post-entry {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    overflow: hidden;
+    padding: 18px;
+}
+
+.section-research.list .entry-content {
+    flex: 1;
+    margin: 12px 6px;
+    -webkit-line-clamp: 3;
+}
+
+.section-research.list .entry-footer {
+    margin-top: auto;
 }
 
 .tag-entry .entry-cover {
@@ -56,7 +75,7 @@
 }
 
 .entry-content {
-    margin: 10px 0;
+    margin: 20px 10px;
     color: var(--secondary);
     font-size: var(--entrysize);
     line-height: var(--lineheight);
@@ -67,7 +86,7 @@
 }
 
 .entry-footer {
-    color: var(--secondary);
+    color: var(--content);
     font-size: var(--entrysize);
 }
 
@@ -83,9 +102,16 @@
     color: var(--secondary);
 }
 
+.private-entry-lock {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
 .entry-hint-parent {
     display: flex;
     justify-content: space-between;
+    gap: 12px;
 }
 
 .entry-cover {

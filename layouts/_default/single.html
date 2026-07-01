@@ -5,6 +5,14 @@
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title entry-hint-parent">
       {{ .Title }}
+      {{- if (.Param "private") }}
+      <span class="entry-hint private-entry-lock" title="Private">
+        <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+        </svg>
+      </span>
+      {{- end }}
       {{- if .Draft }}
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="42" viewBox="0 -960 960 960" fill="currentColor">
@@ -29,7 +37,11 @@
   {{- partial "toc.html" . }}
   {{- end }}
 
-  {{- if .Content }}
+  {{- if (.Param "private") }}
+  <div class="post-content">
+    <p>This post is private.</p>
+  </div>
+  {{- else if .Content }}
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}

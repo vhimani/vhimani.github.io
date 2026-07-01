@@ -1,27 +1,11 @@
 ## About
 
-I currently work as a *Senior Research Analyst* in the METRICS group at **The Brattle Group** in San Francisco. My work spans a range of antitrust and competition cases, as well as projects across various practice areas, with a primary focus on data analysis and applied econometrics.
+I am a *Senior Research Analyst* in the METRICS group at **The Brattle Group** in San Francisco, where I work on data analysis and applied econometrics for antitrust, competition, and other economic consulting matters.
 
-Prior to consulting, I engaged in research across a variety of academic and institutional settings:
+My research interests are in labor economics, applied microeconometrics, time use, and gender. Before joining Brattle, I completed an undergraduate honors thesis at UT Austin on how market work hours are reallocated across home production, childcare, leisure, and other activities during business cycles.
 
-- **Undergraduate Honors Thesis, UT Austin**  
-  Conducted a yearlong, self-authored thesis analyzing the reallocation of time across activities during business cycles, with a focus on gender differences.
+I have also worked on research projects through the Economics Undergraduate Research Fellowship at UT Austin, the Texas Institute for Discovery Education in Science, The Conference Board, Polymath Jr., and the UT Austin Directed Reading Program.
 
-- **Texas Institute for Discovery Education in Science**  
-  Analyzed student enrollment and outcomes data to support institutional decision-making.
+I studied Economics Honors and Mathematics at UT Austin, with additional coursework in Computer Science and Applied Statistical Modeling. I work primarily in Python, R, SQL, and Stata, with experience using Spark, Databricks, and Microsoft Azure.
 
-- **The Conference Board**  
-  Led an independent research project examining trends in employment and domestic migration during the COVID-19 pandemic.
-
-- **Economics Undergraduate Research Fellowship, UT Austin**  
-  Selected for six consecutive semesters to assist faculty-led research in applied econometrics.
-
-- **Polymath Jr. Program**  
-  Co-authored research in combinatorial game theory with applications to two-player abstract strategy games.
-
-- **Directed Reading Program, UT Austin**  
-  Authored and presented papers on advanced graph theory topics, including bipartite graphs and tree theorems.
-
-I completed over 160 credit hours in four years at UT Austin, taking a wide array of courses in Economics, Mathematics, Computer Science, and Statistics. I’m an avid data enthusiast, proficient in Python, R, SQL, and Stata, with additional experience in big data technologies such as Apache Spark (via Databricks) and Microsoft Azure.
-
-Email me at: himani.verma@uci.edu.
+Email: himani.verma@uci.edu

@@ -3,9 +3,8 @@ title: "Applying to US PhD programs in economics"
 date: 2025-07-06
 tags: ["admissions","economics"]
 author: "Himani Verma"
-description: "This graduate course presents an overview of applying to US PhD programs in Economics." 
-summary: "This graduate course draws from my experience and presents an overview of applying to US PhD programs in Economics." 
-draft: true
+description: "Notes from my experience applying to US PhD programs in Economics."
+summary: "Notes from my experience applying to US PhD programs in Economics."
 showToc: true
 disableAnchoredHeadings: false
 
