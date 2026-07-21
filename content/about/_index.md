@@ -1,6 +1,6 @@
 ## About
 
-I am a *Senior Research Analyst* in the METRICS group at **The Brattle Group** in San Francisco, where I work on data analysis and applied econometrics for antitrust, competition, and other economic consulting matters.
+I am a second-year PhD student in Economics at the University of California, Irvine. Previously, I worked as a Senior Research Analyst in the METRICS group at The Brattle Group in San Francisco, where I worked on data analysis and applied econometrics for antitrust, competition, and other economic consulting matters.
 
 My research interests are in applied microeconomics, particularly labor economics and industrial organization. Before joining Brattle, I completed an undergraduate honors thesis at UT Austin on how market work hours are reallocated across home production, childcare, leisure, and other activities during business cycles.
 
