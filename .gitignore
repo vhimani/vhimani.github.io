@@ -5,4 +5,4 @@ resources/
 .DS_Store
 
 # Local-only blog drafts
-content/blog/blog1/
+private-blog/

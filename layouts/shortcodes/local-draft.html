@@ -1,0 +1,4 @@
+{{- $path := .Get 0 -}}
+{{- if and hugo.IsServer (fileExists $path) -}}
+{{- readFile $path | .Page.RenderString -}}
+{{- end -}}
