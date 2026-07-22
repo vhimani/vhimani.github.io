@@ -88,8 +88,6 @@ params:
         hiddenInSingle: true
     label:
       text: "Himani Verma"
-      icon: favicon.ico
-      iconHeight: 18
 
 markup:
     goldmark:
